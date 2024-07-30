@@ -1,0 +1,11 @@
+[package]
+name = "naip_data_cleaner"
+version = "0.1.0"
+edition = "2021"
+authors = ["Lucas.F"]
+publish = false
+repository = "https://github.com/ZBAA-LucasF/naip_data_cleaner"
+
+[dependencies]
+rusqlite = { version = "^0.32.1", features = ["bundled"] }
+walkdir = "^2.3.2"
